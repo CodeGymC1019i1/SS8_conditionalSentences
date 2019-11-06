@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc11de6-7d48-44e1-a90d-e5748e431b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BachLong/Luyentapifelseif/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BachLong/Luyentapswitch-case/b1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BachLong/Luyentapswitch-case/b2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BachLong/Luyentapswitch-case/b3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +27,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/1-CodeGym-QT/6-11-2019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BachLong/Luyentapswitch-case" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong\Luyentapswitch-case" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573012510899</updated>
       <workItem from="1573012512311" duration="1109000" />
-      <workItem from="1573014624377" duration="1941000" />
+      <workItem from="1573014624377" duration="3102000" />
+      <workItem from="1573021958354" duration="3333000" />
     </task>
     <servers />
   </component>
@@ -62,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
