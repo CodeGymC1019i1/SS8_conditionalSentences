@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc11de6-7d48-44e1-a90d-e5748e431b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BachLong/5-Toantu3ngoi/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BachLong/5-Toantu3ngoi/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/1-SuKienChuot/sukienchuot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BachLong/KiemtraNamNhuan/ktranamnhuan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BachLong/LuyentapcautrucIF-ELSE/ex01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BachLong/Luyentapifelseif/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BachLong/Luyentapswitch-case/b1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BachLong/Luyentapswitch-case/b2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BachLong/Luyentapswitch-case/b3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/1-LuyentapcautrucIF-ELSE/ex01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/2-KiemtraNamNhuan/ktranamnhuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/3-Luyentapifelseif/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/4-Luyentapswitch-case/b1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/4-Luyentapswitch-case/b2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/4-Luyentapswitch-case/b3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/5-Toantu3ngoi/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/5-Toantu3ngoi/employee.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +36,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BachLong/5-Toantu3ngoi" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong\5-Toantu3ngoi" />
       <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong\Luyentapswitch-case" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BachThanhLong\3-CauTrucDieuKien\BachLong\CauTrucDieuKien2\1-SuKienChuot\images" />
+      <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,7 +69,9 @@
       <updated>1573012510899</updated>
       <workItem from="1573012512311" duration="1109000" />
       <workItem from="1573014624377" duration="3102000" />
-      <workItem from="1573021958354" duration="5351000" />
+      <workItem from="1573021958354" duration="5823000" />
+      <workItem from="1573089561608" duration="75000" />
+      <workItem from="1573089801038" duration="444000" />
     </task>
     <servers />
   </component>
