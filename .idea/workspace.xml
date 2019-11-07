@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc11de6-7d48-44e1-a90d-e5748e431b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/2-SuKienBanPhim/sukienbanphim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/3-Chisocannang/chisocannang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/2-SuKienBanPhim/sukienbanphim.html" beforeDir="false" afterPath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/2-SuKienBanPhim/sukienbanphim.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TE5eeMIK9UJrg79JLxPsIB06PP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BachLong/5-Toantu3ngoi" />
@@ -33,6 +38,7 @@
       <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong\Luyentapswitch-case" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BachThanhLong\3-CauTrucDieuKien\BachLong\CauTrucDieuKien2" />
       <recent name="D:\BachThanhLong\3-CauTrucDieuKien\BachLong\CauTrucDieuKien2\2-SuKienBanPhim\img" />
       <recent name="D:\BachThanhLong\3-CauTrucDieuKien\BachLong\CauTrucDieuKien2\1-SuKienChuot\images" />
       <recent name="D:\BachThanhLong\3_CauTrucDieuKien\BachLong" />
@@ -64,7 +70,7 @@
       <workItem from="1573014624377" duration="3102000" />
       <workItem from="1573021958354" duration="5823000" />
       <workItem from="1573089561608" duration="75000" />
-      <workItem from="1573089801038" duration="3968000" />
+      <workItem from="1573089801038" duration="6333000" />
     </task>
     <servers />
   </component>
@@ -83,5 +89,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
