@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<img id="img1" src="images/anh1-1.JPG" onclick="changeImage(document.getElementById('img1'),'images/anh',1)">
+<Br>
+<img id="img2" src="images/anh2-2.JPG" onclick="changeImage(document.getElementById('img2'),'images/anh',2)">
+<Br>
+<img id="img3" src="images/anh3-3.JPG" onclick="changeImage(document.getElementById('img3'),'images/anh',3)">
+
+<script>
+    function changeImage(image, source, index) {
+        for (let i = 1; i <= 3; i++) {
+            if (image.src.match(source + i + '-' + index + '.JPG')) {
+                if (i < 3) {
+                    image.src = source + (i + 1) + '-' + index + '.JPG';
+                    break;
+                } else {
+                    image.src = source + 1 + '-' + index + '.JPG'
+                }
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

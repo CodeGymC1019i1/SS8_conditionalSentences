@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div>
+    <img src="images/anh1-1.JPG" id="img_1" onclick="changeImage(document.getElementById('img_1'),'images/anh',1)">
+    <br>
+    <img src="images/anh2-2.JPG" id="img_2" onclick="changeImage(document.getElementById('img_2'),'images/anh',2)">
+    <br>
+    <img src="images/anh3-3.JPG" id="img_3" onclick="changeImage(document.getElementById('img_3'),'images/anh',3)">
+
+</div>
+
+<script>
+
+    function changeImage(image, source, index) {
+        for (let i = 1; i <= 3; i++) {
+            debugger
+     //Dùng lệnh match  để kiểm tra  xem có phần tử trong folder không?
+                if (image.src.match(source + i + '-' + index + '.JPG')) {
+                if (i < 3) {
+                    image.src = source + (i + 1) + '-' + index + '.JPG';
+                    break;
+                } else {
+                    image.src = source + 1 + '-' + index + '.JPG'
+                }
+            }
+        }
+        compareSrc();
+    }
+    
+    function compareSrc() {
+        let img_1 = document.getElementById('img_1');
+        let img_2 = document.getElementById('img_2');
+        let img_3 = document.getElementById('img_3');
+        let a = img_1.src.substr(0,img_1.src.length-6);
+        let b = img_2.src.substr(0,img_1.src.length-6);
+        let c = img_3.src.substr(0,img_1.src.length-6);
+        if (a==b && a==c) {
+            alert('done')
+        }
+
+
+    }
+
+
+</script>
+</body>
+</html>

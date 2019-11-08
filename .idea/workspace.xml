@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc11de6-7d48-44e1-a90d-e5748e431b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/DoYouLoveMe/doyouloveme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/5-GamePuzzle/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BachLong/CauTrucDieuKien2/DoYouLoveMe/doyouloveme.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <workItem from="1573014624377" duration="3102000" />
       <workItem from="1573021958354" duration="5823000" />
       <workItem from="1573089561608" duration="75000" />
-      <workItem from="1573089801038" duration="12145000" />
+      <workItem from="1573089801038" duration="13931000" />
     </task>
     <servers />
   </component>
