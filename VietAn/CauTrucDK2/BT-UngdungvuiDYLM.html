@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng vui DoYouLoveMe</title>
+    <style>
+        h1{
+            color: red;
+            left: 650px;
+            top: 235px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="position: absolute;">Do You Love Me?</h1>
+    <input type="button" value="Yes" onclick="yesClick()" style="position: absolute; left: 700px; top: 300px">
+    <input type="button" id="btNo" value="No" onmousemove="noHover()" style="position: absolute; left: 750px;top: 300px">
+    <script>
+        function yesClick() {
+            alert("Vâng! Tôi Đồng Ý");
+        }
+        function noHover() {
+            let x = Math.round(Math.random() * window.innerWidth);
+            let y = Math.round(Math.random() * window.innerHeight);
+            document.getElementById('btNo').style.left = x + 'px';
+            document.getElementById('btNo').style.top = y + 'px';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width: 500px;
+            height: 100px;
+        }
+        div {
+            margin: auto;
+            background: ghostwhite;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <img src="image1_1.jpg" id="image1" onclick="changeImage(document.getElementById('image1'),'image',1)">
+    <br>
+    <img src="image2_2.jpg" id="image2" onclick="changeImage(document.getElementById('image2'),'image',2)">
+    <br>
+    <img src="image3_3.jpg" id="image3" onclick="changeImage(document.getElementById('image3'),'image',3)">
+    <br>
+    <img src="image4_4.jpg" id="image4" onclick="changeImage(document.getElementById('image4'),'image',4)">
+</div>
+<script>
+    function changeImage(image, source, index) {
+        let i;
+        for (i = 1; i <= 4; i++) {
+            if (image.src.match(source + i + '_' + index + '.jpg')) {
+                if (i < 4) {
+                    image.src = source + (i + 1) + '_' + index + '.jpg';
+                    break;
+                } else {
+                    image.src = source + 1 + '_' + index + '.jpg';
+                }
+            }
+        }
+        compareSrc();
+    }
+
+    function compareSrc() {
+        let image1 = document.getElementById('image1');
+        let image2 = document.getElementById('image2');
+        let image3 = document.getElementById('image3');
+        let image4 = document.getElementById('image4');
+        let a = image1.src.substr(0, image1.src.length - 6);
+        let b = image2.src.substr(0, image2.src.length - 6);
+        let c = image3.src.substr(0, image3.src.length - 6);
+        let d = image4.src.substr(0, image4.src.length - 6);
+        if (a === b && a === c && a === d) {
+            alert('done');
+        }
+    }
+</script>
+</body>
+</html>
