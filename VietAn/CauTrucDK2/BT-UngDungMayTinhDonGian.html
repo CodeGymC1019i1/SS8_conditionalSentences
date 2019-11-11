@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng Dụng Máy Tính Nâng Cao</title>
+    <style>
+        #caculator{
+            background: ghostwhite;
+            color: blue;
+            text-align: center;
+            border: 5px solid black;
+            margin: auto;
+            padding: 20px;
+            width: 200px;
+        }
+        input{
+            text-align: right;
+            width: 200px;
+        }
+        button{
+            width: 40px;
+            height: 40px;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<div id="caculator">
+    <input id="screen" type="text" value="" placeholder="0">
+    <br>
+    <button value="1" onclick="addToScreen(this.value)">1</button>
+    <button value="2" onclick="addToScreen(this.value)">2</button>
+    <button value="3" onclick="addToScreen(this.value)">3</button>
+    <button value="+" class="op" onclick="addToScreen(this.value)">+</button>
+    <br>
+    <button value="4" onclick="addToScreen(this.value)">4</button>
+    <button value="5" onclick="addToScreen(this.value)">5</button>
+    <button value="6" onclick="addToScreen(this.value)">6</button>
+    <button value="-" class="op" onclick="addToScreen(this.value)">-</button>
+    <br>
+    <button value="7" onclick="addToScreen(this.value)">7</button>
+    <button value="8" onclick="addToScreen(this.value)">8</button>
+    <button value="9" onclick="addToScreen(this.value)">9</button>
+    <button value="*" onclick="addToScreen(this.value)">X</button>
+    <br>
+    <button onclick="clearScreen()">C</button>
+    <button value="0" onclick="addToScreen(this.value)">0</button>
+    <button value="=" class="op" onclick="calc()">=</button>
+    <button class="op" value="/">/</button>
+    <br>
+</div>
+<script>
+    let screen = document.getElementById('screen');
+
+    function addToScreen(value) {
+        screen.value += value
+    }
+
+    function calc() {
+        let result = eval(screen.value);
+        screen.value = result;
+    }
+
+    function clearScreen() {
+        screen.value = "";
+
+    }
+</script>
+</body>
+</html>
