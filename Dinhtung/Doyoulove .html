@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>DO YOU LOVE ME BABY</h1>
+<input type="button" value="YES" id="1" onclick="alert('I love you too!!!!!')">
+<input id="2" type="button" value="NO" onmouseover="dontClickNo()" onclick="alert('Noooooooooooooooooo! I HATE YOU!!!')">
+
+<script>
+    let a = null;
+    a = document.getElementById('2');
+function innit() {
+    a = document.getElementById('2');
+    a.style.position = 'relative'
+    a.style.left = "0px";
+    a.style.top = "0px";
+}
+    function dontClickNo() {
+        a.style.left=Math.floor(Math.random() *400) +'px';
+        a.style.top =Math.floor(Math.random() *400) +'px';
+    }
+window.onload = innit();
+</script>
+</body>
+</html>
